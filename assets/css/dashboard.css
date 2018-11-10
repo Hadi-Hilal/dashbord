@@ -1,0 +1,65 @@
+.far{
+    font-size: 19px;
+    MARGIN-TOP: 21px;
+
+}
+.addnew{
+    display: flex;
+    justify-content: space-around;
+
+}
+.userimg{
+    width: 82px;
+    height: 64px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+ border: 2px solid #83267e;
+}
+.asid .notif_date {
+	font-weight: bold;
+	color: #000;
+	font-size: 16px;
+	opacity: 0.7;
+	margin: 60px 0 10px 10px;
+}
+
+.asid .chp-overview {
+	border: 1px solid #999;
+    margin-bottom: 15px;
+}
+
+.asid .chp-overview h5{
+	margin: 15px;
+	font-size: 14px;
+	color: #000;
+}
+.asid .chp-overview a{
+	margin: 15px 15px 30px 15px;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

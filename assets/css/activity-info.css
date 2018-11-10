@@ -1,0 +1,119 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.list-none{
+	list-style: none;
+}
+.activity-nav .nav-tabs-navigation{
+    margin-bottom: 0px;
+    padding: 20px;
+}
+.activity-nav .nav-1 .Preview{
+	float: right;
+}
+.activity-nav .nav-1 .Preview a{
+	font-size: 18px;
+}
+.fix{
+	clear: both;
+}
+/*content-page */
+.content-page .heading{
+	color: #000;
+	opacity: 0.7;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.content-page .my-btn{
+	border: 2px solid #83267e;
+	color: #83267e;
+	background-color: #ffff;
+	padding: 5px 22px 5px 22px;
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 20px;
+}
+.content-page .phpto{
+	height: 100px;
+	width: 50px;
+	background-color: #b5b5b5;
+	margin: 15px;
+}
+
+/* on off */
+
+.onoffswitch {
+    position: relative; width: 82px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #83267E; border-radius: 11px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 39px; padding: 0; line-height: 39px;
+    font-size: 16px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #FFFFFF; color: #83267E;
+}
+
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #83267E; color: #FFFFFF;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 32px; margin: 3.5px;
+    background: #83267E;
+    position: absolute; top: 0; bottom: 0;
+    right: 39px;
+    border: 2px solid #83267E; border-radius: 11px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+.onoffswitch {
+	margin-top: 20px;
+}
+.content-page .box-activ{
+	margin-top: 50px;
+	border: 2px solid #83267E; 
+	border-radius: 10px;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
