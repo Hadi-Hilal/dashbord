@@ -96,19 +96,19 @@
     <div class="wrapper">
 
         <!-- content come here     -->
-        <div class="container">
+        <div class="container" id="exTab2">
 
-            <div style="padding-top: 3%; " class="nav-tabs-navigation">
+            <div style="padding-top: 3%; " class="nav nav-tabs" >
                 <div class="nav-tabs-wrapper">
                     <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" data-toggle="tab" href="activity.html">Your Activities</a>
+                            <a class="nav-link active" data-toggle="tab" href="#1"">Your Activities</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="Bookings & Reservations.html">Bookings & Reservations</a>
+                            <a class="nav-link" data-toggle="tab" href="#2">Bookings & Reservations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="Activity Log.html" >Activity Log</a>
+                            <a class="nav-link" data-toggle="tab" href="#3" >Activity Log</a>
                         </li>
                        
                     </ul>
@@ -121,7 +121,9 @@
 
 
         <!---- your activity --->
-            <section>
+           <div class="tab-content">
+             
+             <section class="tab-pane active" id="1">
                 <div class="container">
                   <div class="id_verfey">
                      <div class="row">
@@ -143,11 +145,11 @@
                         </div>
                       </div>
                     </div>
-                  </section>
+                 
  
            <!---- all activity --->
    
-      <section class="all-activity">
+      <section class="all-activity  " id="">
           <div class="container">
               <h4> All Activities &nbsp; <i class="nc-icon nc-minimal-down"style="color: #f23e2e"></i></h4> 
 
@@ -223,11 +225,11 @@
                   </div>
                </div>
             </section>
-          </div>
+          </section>
          
    <!---- Bookings & Reservations --->
             
-                  <section class="booking">
+                  <section class="booking tab-pane" id="2" >
                       <div class="container">
                         <h4> All Activities &nbsp; <i class="nc-icon nc-minimal-down"style="color: #f23e2e"></i></h4> 
                         <div class="row">
@@ -316,7 +318,7 @@
              </section>    
 
     <!---- Activity log --->
-          <section class="Activity Log">
+          <section class="Activity Log tab-pane " id="3">
               <div class="container">
                 <h4 style="color: #83267E; margin-bottom: 25px;"> All Activities &nbsp; <i class="nc-icon nc-minimal-down"style="color: #f23e2e"></i></h4> 
                  <span class="Search" style="font-size: 22px; margin-bottom: 10px; "> <i class="fal fa-search fa"></i> Search by name or ticket No. </span>
@@ -643,8 +645,7 @@
                  
               </div>
            </section>
-         </div> 
-
+          </div>
 
     <footer style="border-top: 1px solid #ccc;">
         <img style="padding: 5px; float: right;" height="80" width="60" src="assets/img/greylogo.png">
@@ -678,6 +679,9 @@
 
 <!--  Paper Kit Initialization snd functons -->
 <script src="assets/js/activity.js"></script>
+
+<!--  scrpll top -->
+<script src="assets/js/index.js"></script>
 
 </html>
 
